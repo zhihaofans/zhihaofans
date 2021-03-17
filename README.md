@@ -1,7 +1,12 @@
 ## Hi，我叫zhihaofans
 
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=zhihaofans" />
+</a>
 
-[![zhihaofans's GitHub stats](https://github-readme-stats.vercel.app/api?username=zhihaofans)![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zhihaofans&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhihaofans&layout=compact" />
+</a>
 
 [![HitCount](http://hits.dwyl.com/zhihaofans/zhihaofans.svg)](http://hits.dwyl.com/zhihaofans/zhihaofans)
 <!--
