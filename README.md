@@ -1,6 +1,9 @@
-### Hi，我叫zhihaofans
+## Hi，我叫zhihaofans
 
-[![zhihaofans's GitHub stats](https://github-readme-stats.vercel.app/api?username=zhihaofans)](https://github.com/zhihaofans/zhihaofans)
+
+[![zhihaofans's GitHub stats](https://github-readme-stats.vercel.app/api?username=zhihaofans)![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zhihaofans&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+[![HitCount](http://hits.dwyl.com/zhihaofans/zhihaofans.svg)](http://hits.dwyl.com/zhihaofans/zhihaofans)
 <!--
 **zhihaofans/zhihaofans** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
