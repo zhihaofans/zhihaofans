@@ -1,0 +1,59 @@
+{
+  "+auto switch": {
+    "profileType": "SwitchProfile",
+    "rules": [],
+    "name": "auto switch",
+    "color": "#99dd99",
+    "defaultProfileName": "__ruleListOf_auto switch",
+    "revision": "178fda413de"
+  },
+  "+proxy": {
+    "bypassList": [
+      {
+        "pattern": "127.0.0.1",
+        "conditionType": "BypassCondition"
+      },
+      {
+        "pattern": "::1",
+        "conditionType": "BypassCondition"
+      },
+      {
+        "pattern": "localhost",
+        "conditionType": "BypassCondition"
+      }
+    ],
+    "profileType": "FixedProfile",
+    "name": "proxy",
+    "color": "#99ccee",
+    "fallbackProxy": {
+      "port": 7890,
+      "scheme": "http",
+      "host": "127.0.0.1"
+    },
+    "revision": "178fda65c5b"
+  },
+  "-addConditionsToBottom": false,
+  "-confirmDeletion": true,
+  "-downloadInterval": 1440,
+  "-enableQuickSwitch": false,
+  "-quickSwitchProfiles": [],
+  "-refreshOnProfileChange": true,
+  "-revertProxyChanges": true,
+  "-showExternalProfile": true,
+  "-showInspectMenu": true,
+  "-startupProfileName": "auto switch",
+  "schemaVersion": 2,
+  "-monitorWebRequests": true,
+  "+__ruleListOf_auto switch": {
+    "name": "__ruleListOf_auto switch",
+    "defaultProfileName": "direct",
+    "profileType": "RuleListProfile",
+    "color": "#99dd99",
+    "format": "AutoProxy",
+    "matchProfileName": "proxy",
+    "ruleList": "",
+    "revision": "178fda470cb",
+    "sourceUrl": "https://cdn.jsdelivr.net/gh/gfwlist/gfwlist@master/gfwlist.txt",
+    "lastUpdate": ""
+  }
+}
