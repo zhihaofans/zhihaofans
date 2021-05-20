@@ -1,15 +1,56 @@
 {
   "+auto switch": {
     "profileType": "SwitchProfile",
-    "rules": [],
+    "rules": [{
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "*.stackoverflow.com"
+      },
+      "profileName": "proxy"
+    }, {
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "downloads.vivaldi.com"
+      },
+      "profileName": "proxy"
+    }, {
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "*.cosmicjs.com"
+      },
+      "profileName": "proxy"
+    }, {
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "*.madewithvuejs.com"
+      },
+      "profileName": "proxy"
+    }, {
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "*.algolia.net"
+      },
+      "profileName": "proxy"
+    }, {
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "*.vuetifyjs.com"
+      },
+      "profileName": "proxy"
+    }, {
+      "condition": {
+        "conditionType": "HostWildcardCondition",
+        "pattern": "*.github.com"
+      },
+      "profileName": "proxy"
+    }],
     "name": "auto switch",
     "color": "#99dd99",
     "defaultProfileName": "__ruleListOf_auto switch",
     "revision": "178fda413de"
   },
   "+proxy": {
-    "bypassList": [
-      {
+    "bypassList": [{
         "pattern": "127.0.0.1",
         "conditionType": "BypassCondition"
       },
